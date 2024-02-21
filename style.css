@@ -1,5 +1,5 @@
 @font-face {
-    font-family:"Tilt Prism";
+    font-family:"Movement";
     src: url('./fonts/MovementV.woff2') format('woff2'); /*chrome*/
     src:url('./fonts/MovementV.ttf') format('truetype'); /* Safari, Android, iOS */
     font-weight: 0 1000;
