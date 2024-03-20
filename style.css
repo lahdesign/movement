@@ -9,36 +9,36 @@
 body{
     font-family: "Movement", sans-serif;
 }
-.variable-font{
-    /* font-weight:1 ; */
-    height:100vh;
-    font-size: 10em;
-    display:grid;
-    place-content: center;
-    margin: 0;
-    text-align: center;
-    font-variation-settings: "wght" 100, "SPAC" 100;
-    transition: 
-        font-weight 500ms,
-        font-variation-settings 3s;
+
+h2{
+    font-weight:400 ;
 }
 
-.variable-font:hover{
-    /* font-weight:500 ; */
-    height:100vh;
-    font-size: 10em;
-    display:grid;
-    place-content: center;
-    margin: 0;
-    text-align: center;
-    font-variation-settings: "wght" 800, "SPAC" 120;
+p{
+    font-weight:100 ;
+    line-height: 15px;
+    margin: 10px
+}
+
+ul{
+   font-size:30px
+}
+
+.size{
+    font-size:30px
+}
+.weight{
+    font-variation-settings: "wght" 800, "SPAC" 100;
+
+}
+.space{
+    font-variation-settings: "wght" 400, "SPAC" 800;
 }
 
 
-h3{
-    text-align: center;
-    font-size: 5em;
-    animation: weightChange 10s infinite;
+
+.animated-weight{
+animation: weightChange 4s infinite;
 }
 
 @keyframes weightChange {
@@ -49,15 +49,14 @@ h3{
     
 }
 
-h2{
-    font-weight:100 ;
-}
-p{
-    font-weight:100 ;
-    line-height: 15px;
-    margin: 10px
-}
-
-ul{
-   font-size:30px
-}
+.animated-space{
+    animation: spaceChange 4s infinite;
+    }
+    
+    @keyframes spaceChange {
+        0%, 100%{
+            font-variation-settings: "wght" 100, "SPAC" 100;
+        }
+        50%{font-variation-settings: "wght" 100, "SPAC" 800;}
+        
+    }
