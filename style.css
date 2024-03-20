@@ -50,13 +50,13 @@ animation: weightChange 4s infinite;
 }
 
 .animated-space{
-    animation: spaceChange 4s infinite;
+    animation: spaceChange 9s infinite;
     }
     
     @keyframes spaceChange {
         0%, 100%{
             font-variation-settings: "wght" 100, "SPAC" 100;
         }
-        50%{font-variation-settings: "wght" 100, "SPAC" 800;}
+        50%{font-variation-settings: "wght" 100, "SPAC" 120;}
         
     }
