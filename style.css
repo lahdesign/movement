@@ -33,7 +33,18 @@ ul{
 .space{
     font-variation-settings: "wght" 400, "SPAC" 800;
 }
-
+.animated-size{
+    animation: sizeChange 4s infinite;
+    }
+    
+    @keyframes weightChange {
+        0%, 100%{
+            font-variation-settings: "wght" 800, "SPAC" 120;
+        }
+        50%{font-variation-settings: "wght" 100, "SPAC" 100;}
+        
+    }
+    
 
 
 .animated-weight{
@@ -49,7 +60,7 @@ animation: weightChange 4s infinite;
 }
 
 .animated-space{
-    animation: spaceChange 9s infinite;
+    animation: spaceChange 3s infinite;
     }
     
     @keyframes spaceChange {
