@@ -70,3 +70,35 @@ animation: weightChange 4s infinite;
         50%{font-variation-settings: "wght" 100, "SPAC" 120;}
         
     }
+
+    /* animations for the variations section */
+    /* the animated weight change */
+    .weight{
+        animation: variationWeightChange 3s infinite;
+    }
+
+    @keyframes variationWeightChange {
+        0%, 100%{
+            font-variation-settings: "wght" 100, "SPAC" 100;
+        }
+        50%{font-variation-settings: "wght" 700, "SPAC" 100;}
+        
+    }
+
+       /* the animated weight change */
+    .space{
+        animation: variationSpaceChange 3s infinite;
+    }
+
+    @keyframes variationSpaceChange {
+        0%, 100%{
+            font-variation-settings: "wght" 400, "SPAC" 100;
+        }
+        50%{font-variation-settings: "wght" 400, "SPAC" 120;}
+        
+    }
+
+/* the animated space change */
+    .space{
+
+    }
